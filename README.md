@@ -77,7 +77,6 @@ It is guaranteed that n is a multiple of k .
 Sample Input
 
 STDIN       Function
------       --------
 AABCAAADA   s = 'AABCAAADA'
 3           k = 3
 Sample Output
