@@ -1,12 +1,14 @@
 def merge_the_tools(s, k):
     n = len(s)
-    num_subs = n // k
-    
-    for i in range(num_subs):
-        sub = s[i*k:(i+1)*k]
-        sub_unique = ''.join(set(sub))
-        print(sub_unique)
-
-s = input()
-k = int(input())
-merge_the_tools(s, k)
+    for i in range(0, n, k):
+        ti = s[i:i+k]
+        ui = []
+        seen = set()
+        for c in ti:
+            if c not in seen:
+                seen.add(c)
+                ui.append(c)
+        print(''.join(ui))
+if __name__ == '__main__':
+    string, k = input(), int(input())
+    merge_the_tools(string, k)
