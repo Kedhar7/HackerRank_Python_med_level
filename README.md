@@ -34,6 +34,8 @@ Sample Output 0
 25200
 88200
 
+![TIME DELTA](https://user-images.githubusercontent.com/124070263/225416758-901e5eba-b99d-464b-8511-f6d01759f31a.png)
+
 # Question 2 Merge The Tools
 
 Consider the following:
@@ -83,6 +85,8 @@ Sample Output
 AB
 CA
 AD
+
+![MERGE THE TOOLS](https://user-images.githubusercontent.com/124070263/225417008-e1e9c48d-2501-4534-96ab-67b4195cfc59.png)
 
 # Question 3 Regex Substution 
 The re.sub() tool (sub stands for substitution) evaluates a pattern and, for each valid match, it calls a method (or lambda).
@@ -167,4 +171,6 @@ elif a*b > 10 or a/b < 1:
 print set(list(a)) | set(list(b)) 
 #Note do not change &&& or ||| or & or |
 #Only change those '&&' which have space on both sides.
-#Only change those '|| which have space on both sides.    
+#Only change those '|| which have space on both sides.   
+
+![REGEX SUBSTUTION](https://user-images.githubusercontent.com/124070263/225417447-e6a9194a-9ab3-4064-9f61-16fdb4a99324.png)
