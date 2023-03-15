@@ -130,7 +130,6 @@ Output
 
   <param name="quality" value="high"/>
 </object>
-________________________________________
 Task
 You are given a text of N lines. The text contains && and || symbols.
 Your task is to modify those symbols to the following:
